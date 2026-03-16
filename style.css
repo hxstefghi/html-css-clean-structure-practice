@@ -92,6 +92,11 @@ header {
   background-color: black;
 }
 
+.btn-secondary {
+  background-color: white;
+  color: black;
+}
+
 .btn-outline {
   color: black;
   border: 1px solid black;
@@ -147,4 +152,37 @@ header {
 .card__details {
   display: flex;
   flex-direction: column;
+}
+
+.section__two .wrapper {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  border-radius: 20px;
+}
+
+.section__two h2 {
+  color: white;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.about__tagline {
+  color: gray;
+}
+
+.about .wrapper {
+  max-width: 600px;
+}
+
+.stats__wrapper {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.stats p {
+  color: gray;
 }
