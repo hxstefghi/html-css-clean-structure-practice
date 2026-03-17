@@ -131,12 +131,12 @@ header {
 }
 
 .spacing {
-  padding: 48px 0;
+  padding: 64px 0;
 }
 
 .card__wrapper {
   display: flex;
-  gap: 12px;
+  gap: 24px;
 }
 
 .card {
@@ -185,4 +185,43 @@ header {
 
 .stats p {
   color: gray;
+}
+
+.about__wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.about__items {
+  background-color: oklch(98.5% 0.002 247.839);
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about__left p {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.about__left {
+  flex: 1;
+}
+
+.about__right {
+  flex: 1;
+}
+
+.about-section__three .text-center {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about-section__three .text-center p {
+  color: gray;
+  font-size: 0.9rem;
 }
