@@ -70,6 +70,7 @@ header {
 .container {
   margin: 0 auto;
   max-width: 1140px;
+  padding: 0 32px;
 }
 
 .navbar__items a,
@@ -224,4 +225,59 @@ header {
 .about-section__three .text-center p {
   color: gray;
   font-size: 0.9rem;
+}
+
+.contact__hero .wrapper {
+  max-width: 600px;
+}
+
+.contact__tagline {
+  color: gray;
+}
+
+.contact__hero h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.contact__hero p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.contact__fields {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contact__details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  padding: 30px;
+}
+
+.contact-form__wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.contact__col {
+  display: flex;
+  gap: 10px;
+}
+
+.contact__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid gray;
 }
